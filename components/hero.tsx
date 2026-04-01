@@ -76,8 +76,8 @@ export function Hero() {
           </div>
 
           <p className="mx-auto mb-8 max-w-2xl text-pretty text-lg text-white/80 md:text-xl">
-            Transformando vidas de criancas e adolescentes de 8 a 17 anos atraves do surf.
-            Inclusao, desenvolvimento e novas perspectivas de futuro pelo contato com o mar.
+            Transformando vidas de crianças e adolescentes de 8 a 17 anos através do surf.
+            Inclusão, desenvolvimento e novas perspectivas de futuro pelo contato com o mar.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 max-w-xl sm:max-w-none mx-auto">
@@ -90,7 +90,7 @@ export function Hero() {
             >
               <Link href="#inscricao">
                 <Users className="h-5 w-5 shrink-0" />
-                Inscrever Crianca
+                Inscrever Criança
               </Link>
             </Button>
 
@@ -116,7 +116,7 @@ export function Hero() {
               onClick={() => setIsVideoPlaying(true)}
             >
               <Play className="mr-2 h-5 w-5" />
-              Conheca Nossa Historia
+              Conheça Nossa História
             </Button>
           </div>
 

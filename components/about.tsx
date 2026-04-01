@@ -5,29 +5,29 @@ import { Heart, Users, Brain, Leaf, Target, Sparkles } from "lucide-react"
 const objectives = [
   {
     icon: Users,
-    title: "Inclusao Social",
-    description: "Promover acesso ao esporte para criancas e adolescentes em situacao de vulnerabilidade",
+    title: "Inclusão Social",
+    description: "Promover acesso ao esporte para crianças e adolescentes em situação de vulnerabilidade",
     image:
       "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80&auto=format&fit=crop",
   },
   {
     icon: Brain,
     title: "Desenvolvimento Integral",
-    description: "Estimular consciencia corporal, equilibrio, coordenacao e tomada de decisao",
+    description: "Estimular consciência corporal, equilíbrio, coordenação e tomada de decisão",
     image:
       "https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=800&q=80&auto=format&fit=crop",
   },
   {
     icon: Heart,
     title: "Autoestima",
-    description: "Fortalecer a autoconfianca e o senso de pertencimento atraves do contato com o mar",
+    description: "Fortalecer a autoconfiança e o senso de pertencimento através do contato com o mar",
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop",
   },
   {
     icon: Leaf,
-    title: "Educacao Ambiental",
-    description: "Promover consciencia sobre preservacao das praias e oceanos",
+    title: "Educação Ambiental",
+    description: "Promover consciência sobre preservação das praias e oceanos",
     image: "/images/hero-surf.jpg",
   },
   {
@@ -54,7 +54,7 @@ export function About() {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/instructor.jpg"
-                alt="Criancas aprendendo surf no projeto Surf para o Futuro"
+                alt="Crianças aprendendo surf no projeto Surf para o Futuro"
                 fill
                 className="object-cover"
               />
@@ -73,7 +73,7 @@ export function About() {
                 </div>
               </div>
               <p className="text-sm text-foreground font-medium">
-                {"Transformando vidas atraves do surf na comunidade do Terreirao"}
+                {"Transformando vidas através do surf na comunidade do Terreirão"}
               </p>
             </div>
 
@@ -88,27 +88,27 @@ export function About() {
             </div>
             
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-              Surf como ferramenta de transformacao social
+              Surf como ferramenta de transformação social
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 text-pretty">
               O <strong className="text-foreground">Surf para o Futuro</strong> e um projeto social voltado para 
-              criancas e adolescentes de 8 a 17 anos, moradores da comunidade do Terreirao e arredores, 
+              crianças e adolescentes de 8 a 17 anos, moradores da comunidade do Terreirão e arredores, 
               no Recreio dos Bandeirantes (RJ).
             </p>
 
             <p className="text-lg text-muted-foreground mb-8 text-pretty">
-              Atraves do surf, promovemos <strong className="text-foreground">inclusao, desenvolvimento integral, 
-              autoestima e novas perspectivas de futuro</strong>. O contato com a natureza favorece a regulacao 
-              emocional, reduz o estresse e fortalece a confianca de cada participante.
+              Através do surf, promovemos <strong className="text-foreground">inclusão, desenvolvimento integral, 
+              autoestima e novas perspectivas de futuro</strong>. O contato com a natureza favorece a regulação 
+              emocional, reduz o estresse e fortalece a confiança de cada participante.
             </p>
 
             <div className="bg-muted/50 rounded-xl p-6 mb-8">
               <h3 className="font-semibold text-foreground mb-3">Nossa Missao</h3>
               <p className="text-muted-foreground text-pretty">
-                Promover a inclusao social e o desenvolvimento integral de criancas e adolescentes 
-                por meio do surf como ferramenta para um futuro melhor e uma educacao transformadora, 
-                fortalecendo a autoestima, as habilidades socioemocionais e a conexao com a natureza.
+                Promover a inclusão social e o desenvolvimento integral de crianças e adolescentes 
+                por meio do surf como ferramenta para um futuro melhor e uma educação transformadora, 
+                fortalecendo a autoestima, as habilidades socioemocionais e a conexão com a natureza.
               </p>
             </div>
 
@@ -132,10 +132,10 @@ export function About() {
         <div className="mt-20">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-              Objetivos Especificos
+              Objetivos Específicos
             </h3>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Trabalhamos em multiplas frentes para garantir o desenvolvimento completo dos participantes
+              Trabalhamos em múltiplas frentes para garantir o desenvolvimento completo dos participantes
             </p>
           </div>
 

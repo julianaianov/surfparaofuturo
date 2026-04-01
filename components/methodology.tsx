@@ -6,28 +6,28 @@ import { Calendar, Clock, Users, Waves, Brain, Leaf, MessageCircle, Heart } from
 const activities = [
   {
     icon: Waves,
-    title: "Aula Pratica de Surf",
-    description: "Ensino das tecnicas basicas e avancadas do surf com instrutores qualificados"
+    title: "Aula prática de surf",
+    description: "Ensino das técnicas básicas e avançadas do surf com instrutores qualificados"
   },
   {
     icon: Heart,
     title: "Treino Funcional na Areia",
-    description: "Preparacao fisica com exercicios funcionais adaptados para criancas e adolescentes"
+    description: "Preparação física com exercícios funcionais adaptados para crianças e adolescentes"
   },
   {
     icon: MessageCircle,
     title: "Rodas de Conversa",
-    description: "Encontros socioeducativos com apoio de psicologo infantil"
+    description: "Encontros socioeducativos com apoio de psicólogo infantil"
   },
   {
     icon: Users,
-    title: "Dinamicas de Grupo",
+    title: "Dinâmicas de grupo",
     description: "Atividades para fortalecer trabalho em equipe e relacoes interpessoais"
   },
   {
     icon: Leaf,
-    title: "Educacao Ambiental",
-    description: "Acoes de conscientizacao sobre preservacao das praias e oceanos"
+    title: "Educação ambiental",
+    description: "Ações de conscientização sobre preservação das praias e oceanos"
   },
   {
     icon: Brain,
@@ -38,19 +38,19 @@ const activities = [
 
 const timeline = [
   {
-    month: "Mes 1",
-    title: "Inscricao e Planejamento",
-    description: "Inscricoes abertas, selecao dos participantes e organizacao das turmas"
+    month: "Mês 1",
+    title: "Inscrição e planejamento",
+    description: "Inscrições abertas, seleção dos participantes e organização das turmas"
   },
   {
-    month: "Mes 2 a 5",
-    title: "Aulas Continuas",
-    description: "Aulas semanais de surf, rodas de conversa e acoes ambientais"
+    month: "Mês 2 a 5",
+    title: "Aulas contínuas",
+    description: "Aulas semanais de surf, rodas de conversa e ações ambientais"
   },
   {
-    month: "Mes 6",
+    month: "Mês 6",
     title: "Encerramento",
-    description: "Evento final de celebracao com familiares e comunidade"
+    description: "Evento final de celebração com familiares e comunidade"
   }
 ]
 
@@ -66,7 +66,7 @@ export function Methodology() {
             Nossa Metodologia
           </h2>
           <p className="mx-auto max-w-2xl text-pretty text-lg text-foreground/85">
-            Um programa estruturado com duracao de 6 meses, combinando pratica esportiva 
+            Um programa estruturado com duração de 6 meses, combinando prática esportiva 
             com desenvolvimento socioemocional
           </p>
         </div>
@@ -84,7 +84,7 @@ export function Methodology() {
             <CardContent className="pt-6">
               <Clock className="h-8 w-8 text-primary mx-auto mb-2" />
               <div className="text-3xl font-bold text-foreground">2h</div>
-              <div className="text-sm text-muted-foreground">Duracao da aula</div>
+              <div className="text-sm text-muted-foreground">Duração da aula</div>
             </CardContent>
           </Card>
           <Card className="text-center">
@@ -98,7 +98,7 @@ export function Methodology() {
             <CardContent className="pt-6">
               <Waves className="h-8 w-8 text-primary mx-auto mb-2" />
               <div className="text-3xl font-bold text-foreground">6</div>
-              <div className="text-sm text-muted-foreground">Meses de duracao</div>
+              <div className="text-sm text-muted-foreground">Meses de duração</div>
             </CardContent>
           </Card>
         </div>
@@ -170,14 +170,14 @@ export function Methodology() {
           <CardContent className="space-y-4">
             <p className="text-muted-foreground">
               Como contrapartida social, o projeto oferece aulas <strong className="text-foreground">gratuitas</strong> de 
-              surf para criancas e adolescentes em situacao de vulnerabilidade social da comunidade do 
-              Terreirao e arredores, promovendo acesso ao esporte, ao lazer e ao desenvolvimento integral.
+              surf para crianças e adolescentes em situação de vulnerabilidade social da comunidade do 
+              Terreirão e arredores, promovendo acesso ao esporte, ao lazer e ao desenvolvimento integral.
             </p>
             <p className="text-muted-foreground">
-              As atividades sao realizadas em ambiente seguro e inclusivo, estimulando habilidades 
-              fisicas e socioemocionais como disciplina, autonomia, trabalho em equipe e autoconfianca. 
-              O projeto tambem conta com <strong className="text-foreground">roda de conversa com psicologo infantil</strong>, 
-              voltada ao apoio emocional e ao desenvolvimento saudavel dos participantes.
+              As atividades são realizadas em ambiente seguro e inclusivo, estimulando habilidades 
+              físicas e socioemocionais como disciplina, autonomia, trabalho em equipe e autoconfiança. 
+              O projeto também conta com <strong className="text-foreground">roda de conversa com psicólogo infantil</strong>, 
+              voltada ao apoio emocional e ao desenvolvimento saudável dos participantes.
             </p>
           </CardContent>
         </Card>

@@ -38,14 +38,14 @@ export function LocationMap() {
                 className="flex-1 bg-background/95 backdrop-blur text-foreground hover:bg-background shadow-lg"
               >
                 <MapPin className="mr-2 h-4 w-4" />
-                Ver no Mapa
+                Ver no mapa
               </Button>
               <Button 
                 onClick={handleGetDirections}
                 className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg"
               >
                 <Navigation className="mr-2 h-4 w-4" />
-                Como Chegar
+                Como chegar
               </Button>
             </div>
           </div>
@@ -61,9 +61,9 @@ export function LocationMap() {
                 Praia do Recreio dos Bandeirantes
               </h2>
               <p className="text-lg text-white/85 text-pretty">
-                As aulas do projeto acontecem na Praia do Recreio, proximo a 
-                comunidade do Terreirao. Um local perfeito para iniciantes, com 
-                ondas consistentes e ambiente seguro para nossas criancas e adolescentes.
+                As aulas do projeto acontecem na Praia do Recreio, próximo à 
+                comunidade do Terreirão. Um local perfeito para iniciantes, com 
+                ondas consistentes e ambiente seguro para nossas crianças e adolescentes.
               </p>
             </div>
 
@@ -74,9 +74,9 @@ export function LocationMap() {
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Ponto de Encontro</h3>
+                    <h3 className="font-semibold text-foreground">Ponto de encontro</h3>
                     <p className="text-sm text-muted-foreground">
-                      Proximo a comunidade do Terreirao
+                      Próximo à comunidade do Terreirão
                     </p>
                   </div>
                 </CardContent>
@@ -88,9 +88,9 @@ export function LocationMap() {
                     <Clock className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-foreground">Horarios das Aulas</h3>
+                    <h3 className="font-semibold text-foreground">Horários das aulas</h3>
                     <p className="text-sm text-muted-foreground">
-                      Sabados: 8h as 10h (2h)
+                      Sábados: 8h às 10h (2h)
                     </p>
                   </div>
                 </CardContent>

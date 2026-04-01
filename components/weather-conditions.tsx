@@ -223,7 +223,7 @@ export function WeatherConditions() {
             Condições do Mar em Tempo Real
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Acompanhe as condições atuais para planejar sua aula no melhor momento
+            Acompanhe as condições atuais para planejar a sua aula no melhor momento
           </p>
         </div>
 

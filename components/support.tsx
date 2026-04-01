@@ -8,33 +8,33 @@ import { useState } from "react"
 const supportWays = [
   {
     icon: Heart,
-    title: "Doacao Financeira",
+    title: "Doação financeira",
     description: "Contribua com qualquer valor via Pix para manter o projeto funcionando",
     highlight: true
   },
   {
     icon: Shirt,
-    title: "Doacao de Equipamentos",
+    title: "Doação de equipamentos",
     description: "Pranchas, lycras, leashes e outros equipamentos de surf em bom estado"
   },
   {
     icon: Users,
     title: "Voluntariado",
-    description: "Doe seu tempo e conhecimento como instrutor, fotografo ou apoio nas atividades"
+    description: "Doe seu tempo e conhecimento como instrutor, fotógrafo ou apoio nas atividades"
   },
   {
     icon: Building2,
-    title: "Patrocinio Empresarial",
+    title: "Patrocínio empresarial",
     description: "Empresas podem patrocinar o projeto e ter sua marca associada a causa social"
   },
   {
     icon: Award,
     title: "Parcerias",
-    description: "Escolas de surf, marcas esportivas e organizacoes podem firmar parcerias"
+    description: "Escolas de surf, marcas esportivas e organizações podem firmar parcerias"
   },
   {
     icon: Handshake,
-    title: "Divulgacao",
+    title: "Divulgação",
     description: "Compartilhe nosso projeto nas redes sociais e ajude a causa a crescer"
   }
 ]
@@ -68,11 +68,11 @@ export function Support() {
             Apoie a Causa
           </div>
           <h2 className="mb-4 text-balance text-3xl font-bold text-foreground md:text-4xl lg:text-5xl">
-            Como Voce Pode Ajudar
+            Como você pode ajudar
           </h2>
           <p className="mx-auto max-w-2xl text-pretty text-lg text-foreground/80">
-            Sua contribuicao transforma vidas. Existem diversas formas de apoiar o Surf para o Futuro 
-            e fazer parte dessa historia de transformacao.
+            Sua contribuição transforma vidas. Existem diversas formas de apoiar o Surf para o Futuro 
+            e fazer parte dessa história de transformação.
           </p>
         </div>
 
@@ -82,7 +82,7 @@ export function Support() {
             <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <Heart className="h-8 w-8 text-primary" />
             </div>
-            <CardTitle className="text-2xl">Faca uma Doacao via Pix</CardTitle>
+            <CardTitle className="text-2xl">Faça uma doação via Pix</CardTitle>
             <CardDescription>
               Qualquer valor ajuda a manter o projeto funcionando e transformando vidas
             </CardDescription>
@@ -116,7 +116,7 @@ export function Support() {
               <Button
                 size="lg"
                 className="w-full bg-green-600 hover:bg-green-700"
-                onClick={() => openWhatsApp("Ola! Gostaria de fazer uma doacao para o projeto Surf para o Futuro.")}
+                onClick={() => openWhatsApp("Olá! Gostaria de fazer uma doação para o projeto Surf para o Futuro.")}
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Enviar Comprovante
@@ -125,9 +125,9 @@ export function Support() {
                 size="lg"
                 variant="outline"
                 className="w-full"
-                onClick={() => openWhatsApp("Ola! Gostaria de saber mais sobre como posso ajudar o projeto Surf para o Futuro.")}
+                onClick={() => openWhatsApp("Olá! Gostaria de saber mais sobre como posso ajudar o projeto Surf para o Futuro.")}
               >
-                Tirar Duvidas
+                Tirar dúvidas
               </Button>
             </div>
           </CardContent>
@@ -152,7 +152,7 @@ export function Support() {
                   variant="outline"
                   size="sm"
                   className="w-full"
-                  onClick={() => openWhatsApp(`Ola! Tenho interesse em apoiar o projeto atraves de: ${way.title}`)}
+                  onClick={() => openWhatsApp(`Olá! Tenho interesse em apoiar o projeto através de: ${way.title}`)}
                 >
                   Quero Ajudar
                 </Button>
@@ -164,7 +164,7 @@ export function Support() {
         {/* Impact Stats */}
         <div className="mt-16 bg-card/90 backdrop-blur-sm border border-foreground/10 rounded-2xl p-8 md:p-12 shadow-lg">
           <h3 className="text-2xl font-bold text-card-foreground text-center mb-8">
-            O Impacto da Sua Doacao
+            O impacto da sua doação
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div>
@@ -181,7 +181,7 @@ export function Support() {
             </div>
             <div>
               <div className="text-3xl md:text-4xl font-bold text-primary">R$ 1000</div>
-              <div className="text-sm text-muted-foreground mt-1">1 mes de aulas</div>
+              <div className="text-sm text-muted-foreground mt-1">1 mês de aulas</div>
             </div>
           </div>
         </div>

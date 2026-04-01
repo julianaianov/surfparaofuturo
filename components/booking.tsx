@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils"
 
 const ageGroups = [
   { id: "8-10", label: "8 a 10 anos", description: "Turma infantil" },
-  { id: "11-14", label: "11 a 14 anos", description: "Turma pre-adolescente" },
+  { id: "11-14", label: "11 a 14 anos", description: "Turma pré-adolescente" },
   { id: "15-17", label: "15 a 17 anos", description: "Turma adolescente" },
 ]
 
@@ -38,26 +38,26 @@ export function Booking() {
   const generateWhatsAppMessage = () => {
     const ageGroup = ageGroups.find(a => a.id === formData.ageGroup)
     
-    const message = `🏄‍♀️ *INSCRICAO - SURF PARA O FUTURO*
+    const message = `🏄‍♀️ *INSCRIÇÃO - SURF PARA O FUTURO*
 
-👧 *DADOS DA CRIANCA/ADOLESCENTE*
+👧 *DADOS DA CRIANÇA/ADOLESCENTE*
 Nome: ${formData.childName}
 Idade: ${formData.childAge} anos
-Faixa etaria: ${ageGroup?.label}
+Faixa etária: ${ageGroup?.label}
 
-👨‍👩‍👧 *DADOS DO RESPONSAVEL*
+👨‍👩‍👧 *DADOS DO RESPONSÁVEL*
 Nome: ${formData.responsibleName}
 Telefone: ${formData.responsiblePhone}
 Email: ${formData.responsibleEmail}
 
-📍 *ENDERECO*
+📍 *ENDEREÇO*
 ${formData.address}
 Comunidade: ${formData.community}
 Escola: ${formData.school}
 
-${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
+${formData.message ? `💬 *Observações:* ${formData.message}` : ''}
 
-✅ Responsavel concordou com os termos do projeto`
+✅ Responsável concordou com os termos do projeto`
 
     return encodeURIComponent(message)
   }
@@ -85,14 +85,14 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                 <Check className="h-10 w-10 text-green-600" />
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-2">
-                Inscricao Enviada!
+                Inscrição enviada!
               </h3>
               <p className="text-muted-foreground mb-6">
-                Sua inscricao foi enviada para nossa equipe via WhatsApp. 
-                Entraremos em contato em breve para confirmar a participacao.
+                Sua inscrição foi enviada para nossa equipe via WhatsApp. 
+                Entraremos em contato em breve para confirmar a participação.
               </p>
               <Button onClick={() => { setIsSuccess(false); setStep(1); setFormData(prev => ({ ...prev, childName: '', childAge: '', responsibleName: '', responsiblePhone: '', responsibleEmail: '', address: '', community: '', school: '', message: '' })) }}>
-                Fazer Nova Inscricao
+                Fazer nova inscrição
               </Button>
             </CardContent>
           </Card>
@@ -107,14 +107,14 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6">
             <Calendar className="h-4 w-4" />
-            Inscricoes Abertas
+            Inscrições abertas
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-            Inscreva uma Crianca ou Adolescente
+            Inscreva uma criança ou adolescente
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Preencha o formulario abaixo para inscrever uma crianca ou adolescente de 8 a 17 anos 
-            da comunidade do Terreirao ou arredores no programa Surf para o Futuro.
+            Preencha o formulário abaixo para inscrever uma criança ou adolescente de 8 a 17 anos 
+            da comunidade do Terreirão ou arredores no programa Surf para o Futuro.
           </p>
         </div>
 
@@ -124,7 +124,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
             <CardHeader>
               <CardTitle className="text-lg flex items-center gap-2">
                 <Heart className="h-5 w-5 text-primary" />
-                Requisitos para Participacao
+                Requisitos para participação
               </CardTitle>
             </CardHeader>
             <CardContent>
@@ -135,15 +135,15 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Morar na comunidade do Terreirao ou arredores (Recreio dos Bandeirantes)</span>
+                  <span>Morar na comunidade do Terreirão ou arredores (Recreio dos Bandeirantes)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Ter autorizacao do responsavel legal</span>
+                  <span>Ter autorização do responsável legal</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Compromisso com a frequencia nas aulas</span>
+                  <span>Compromisso com a frequência nas aulas</span>
                 </li>
               </ul>
             </CardContent>
@@ -174,9 +174,9 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
               ))}
             </div>
             <div className="flex justify-between text-sm text-muted-foreground mb-6">
-              <span>Dados da Crianca</span>
-              <span>Responsavel</span>
-              <span>Confirmacao</span>
+              <span>Dados da criança</span>
+              <span>Responsável</span>
+              <span>Confirmação</span>
             </div>
           </div>
 
@@ -187,7 +187,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                 <div>
                   <Label htmlFor="childName" className="text-base font-semibold mb-2 block">
                     <User className="inline h-4 w-4 mr-2" />
-                    Nome completo da crianca/adolescente
+                    Nome completo da criança/adolescente
                   </Label>
                   <Input
                     id="childName"
@@ -219,7 +219,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                 <div>
                   <Label className="text-base font-semibold mb-3 block">
                     <Users className="inline h-4 w-4 mr-2" />
-                    Faixa etaria
+                    Faixa etária
                   </Label>
                   <div className="space-y-2">
                     {ageGroups.map((group) => (
@@ -259,11 +259,11 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                 <div>
                   <Label htmlFor="responsibleName" className="text-base font-semibold mb-2 block">
                     <User className="inline h-4 w-4 mr-2" />
-                    Nome do responsavel legal
+                    Nome do responsável legal
                   </Label>
                   <Input
                     id="responsibleName"
-                    placeholder="Nome completo do responsavel"
+                    placeholder="Nome completo do responsável"
                     value={formData.responsibleName}
                     onChange={(e) => setFormData(prev => ({ ...prev, responsibleName: e.target.value }))}
                     required
@@ -274,7 +274,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                 <div>
                   <Label htmlFor="responsiblePhone" className="text-base font-semibold mb-2 block">
                     <Phone className="inline h-4 w-4 mr-2" />
-                    WhatsApp do responsavel
+                    WhatsApp do responsável
                   </Label>
                   <Input
                     id="responsiblePhone"
@@ -304,11 +304,11 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                 <div>
                   <Label htmlFor="address" className="text-base font-semibold mb-2 block">
                     <MapPin className="inline h-4 w-4 mr-2" />
-                    Endereco
+                    Endereço
                   </Label>
                   <Input
                     id="address"
-                    placeholder="Rua, numero, bairro"
+                    placeholder="Rua, número, bairro"
                     value={formData.address}
                     onChange={(e) => setFormData(prev => ({ ...prev, address: e.target.value }))}
                     required
@@ -323,7 +323,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                     </Label>
                     <Input
                       id="community"
-                      placeholder="Ex: Terreirao"
+                      placeholder="Ex.: Terreirão"
                       value={formData.community}
                       onChange={(e) => setFormData(prev => ({ ...prev, community: e.target.value }))}
                       required
@@ -370,11 +370,11 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
               <CardContent className="space-y-6">
                 <Card className="bg-muted/50">
                   <CardHeader>
-                    <CardTitle className="text-lg">Resumo da Inscricao</CardTitle>
+                    <CardTitle className="text-lg">Resumo da inscrição</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <div className="flex justify-between">
-                      <span className="text-muted-foreground">Crianca/Adolescente</span>
+                      <span className="text-muted-foreground">Criança/adolescente</span>
                       <span className="font-medium">{formData.childName}</span>
                     </div>
                     <div className="flex justify-between">
@@ -382,7 +382,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                       <span className="font-medium">{formData.childAge} anos</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-muted-foreground">Responsavel</span>
+                      <span className="text-muted-foreground">Responsável</span>
                       <span className="font-medium">{formData.responsibleName}</span>
                     </div>
                     <div className="flex justify-between">
@@ -400,11 +400,11 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
 
                 <div>
                   <Label htmlFor="message" className="text-base font-semibold mb-2 block">
-                    Observacoes (opcional)
+                    Observações (opcional)
                   </Label>
                   <Textarea
                     id="message"
-                    placeholder="Alguma informacao adicional sobre a crianca? (saude, experiencias anteriores, etc.)"
+                    placeholder="Alguma informação adicional sobre a criança? (saúde, experiências anteriores, etc.)"
                     value={formData.message}
                     onChange={(e) => setFormData(prev => ({ ...prev, message: e.target.value }))}
                     rows={3}
@@ -420,7 +420,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                     className="mt-1"
                   />
                   <Label htmlFor="terms" className="text-sm text-muted-foreground">
-                    Declaro que sou responsavel legal pela crianca/adolescente e autorizo sua participacao 
+                    Declaro que sou responsável legal pela criança/adolescente e autorizo sua participação 
                     no projeto Surf para o Futuro, concordando com as atividades propostas.
                   </Label>
                 </div>
@@ -432,7 +432,7 @@ ${formData.message ? `💬 *Observacoes:* ${formData.message}` : ''}
                   size="lg"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
-                  {isSubmitting ? 'Enviando...' : 'Enviar Inscricao via WhatsApp'}
+                  {isSubmitting ? 'Enviando...' : 'Enviar inscrição via WhatsApp'}
                 </Button>
 
                 <Button 

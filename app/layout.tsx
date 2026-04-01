@@ -14,11 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Surf para o Futuro | Projeto Social - Recreio, RJ',
-  description: 'Projeto social que utiliza o surf como ferramenta de transformacao social para criancas e adolescentes de 8 a 17 anos da comunidade do Terreirao e arredores, no Recreio dos Bandeirantes, Rio de Janeiro.',
-  keywords: ['surf', 'projeto social', 'terreirao', 'recreio', 'rio de janeiro', 'transformacao social', 'inclusao', 'criancas', 'adolescentes'],
+  description: 'Projeto social que utiliza o surf como ferramenta de transformação social para crianças e adolescentes de 8 a 17 anos da comunidade do Terreirão e arredores, no Recreio dos Bandeirantes, Rio de Janeiro.',
+  keywords: ['surf', 'projeto social', 'terreirão', 'recreio', 'rio de janeiro', 'transformação social', 'inclusão', 'crianças', 'adolescentes'],
   openGraph: {
     title: 'Surf para o Futuro | Projeto Social',
-    description: 'Transformando vidas atraves do surf - Projeto social para criancas e adolescentes do Terreirao, Recreio/RJ',
+    description: 'Transformando vidas através do surf — Projeto social para crianças e adolescentes do Terreirão, Recreio/RJ',
     locale: 'pt_BR',
     type: 'website',
   },

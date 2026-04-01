@@ -8,10 +8,10 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const navItems = [
-  { href: "#inicio", label: "Inicio" },
+  { href: "#inicio", label: "Início" },
   { href: "#sobre", label: "O Projeto" },
   { href: "#metodologia", label: "Metodologia" },
-  { href: "#condicoes", label: "Condicoes" },
+  { href: "#condicoes", label: "Condições" },
   { href: "#galeria", label: "Galeria" },
   { href: "#depoimentos", label: "Depoimentos" },
   { href: "#dicas", label: "Dicas" },
@@ -95,7 +95,7 @@ export function Header() {
 
           <div className="hidden lg:flex items-center gap-3">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-lg shadow-primary/25">
-              <Link href="#inscricao">Inscrever Crianca</Link>
+              <Link href="#inscricao">Inscrever Criança</Link>
             </Button>
             <Button
               asChild
@@ -139,7 +139,7 @@ export function Header() {
               ))}
               <Button asChild size="lg" className="mt-2 bg-primary hover:bg-primary/90 text-primary-foreground">
                 <Link href="#inscricao" onClick={() => setIsMenuOpen(false)}>
-                  Inscrever Crianca
+                  Inscrever Criança
                 </Link>
               </Button>
               <Button

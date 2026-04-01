@@ -20,7 +20,7 @@ const mediaItems: MediaItem[] = [
     type: "image",
     src: "https://images.unsplash.com/photo-1455264745730-cb3b76250ae8?w=1200&q=80",
     thumbnail: "https://images.unsplash.com/photo-1455264745730-cb3b76250ae8?w=400&q=80",
-    alt: "Criancas do projeto na primeira aula"
+    alt: "Crianças do projeto na primeira aula"
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const mediaItems: MediaItem[] = [
     type: "video",
     src: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     thumbnail: "https://images.unsplash.com/photo-1531722569936-825d3dd91b15?w=400&q=80",
-    alt: "Video do projeto Surf para o Futuro"
+    alt: "Vídeo do projeto Surf para o Futuro"
   },
   {
     id: 4,
@@ -62,14 +62,14 @@ const mediaItems: MediaItem[] = [
     type: "video",
     src: "https://www.youtube.com/embed/dQw4w9WgXcQ",
     thumbnail: "https://images.unsplash.com/photo-1455264745730-cb3b76250ae8?w=400&q=80",
-    alt: "Highlights do semestre"
+    alt: "Destaques do semestre"
   },
   {
     id: 8,
     type: "image",
     src: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1200&q=80",
     thumbnail: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=400&q=80",
-    alt: "Por do sol apos as aulas"
+    alt: "Pôr do sol após as aulas"
   }
 ]
 
@@ -100,7 +100,7 @@ export function Gallery() {
             Momentos que Transformam
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Veja nossas criancas e adolescentes conquistando as ondas! Cada foto e video conta uma historia de superacao e transformacao.
+            Veja nossas crianças e adolescentes conquistando as ondas! Cada foto e vídeo conta uma história de superação e transformação.
           </p>
         </div>
 

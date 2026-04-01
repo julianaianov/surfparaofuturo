@@ -10,10 +10,10 @@ const testimonials = [
   {
     id: 1,
     name: "Dona Maria",
-    role: "Mae do Lucas, 12 anos",
+    role: "Mãe do Lucas, 12 anos",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
     rating: 5,
-    text: "O Lucas era muito timido e tinha medo do mar. Depois de entrar no projeto, ele mudou completamente. Agora tem amigos, confianca e ate as notas na escola melhoraram. Sou muito grata!",
+    text: "O Lucas era muito tímido e tinha medo do mar. Depois de entrar no projeto, ele mudou completamente. Agora tem amigos, confiança e até as notas na escola melhoraram. Sou muito grata!",
     date: "Participante desde 2023"
   },
   {
@@ -22,7 +22,7 @@ const testimonials = [
     role: "Pai da Amanda, 15 anos",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
     rating: 5,
-    text: "A Amanda sonhava em surfar mas nunca tivemos condicoes de pagar aulas. Esse projeto realizou o sonho dela e ainda ensina valores importantes. O carinho da equipe e incrivel.",
+    text: "A Amanda sonhava em surfar mas nunca tivemos condições de pagar aulas. Esse projeto realizou o sonho dela e ainda ensina valores importantes. O carinho da equipe é incrível.",
     date: "Participante desde 2024"
   },
   {
@@ -31,16 +31,16 @@ const testimonials = [
     role: "Participante, 14 anos",
     avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
     rating: 5,
-    text: "Eu nunca pensei que ia conseguir surfar. No comeco eu tinha muito medo, mas os instrutores sao muito pacientes. Agora o surf e a melhor parte da minha semana!",
+    text: "Eu nunca pensei que ia conseguir surfar. No começo eu tinha muito medo, mas os instrutores são muito pacientes. Agora o surf é a melhor parte da minha semana!",
     date: "Participante desde 2023"
   },
   {
     id: 4,
-    name: "Professora Claudia",
+    name: "Professora Cláudia",
     role: "Diretora da escola local",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
     rating: 5,
-    text: "Percebi uma grande mudanca nos alunos que participam do projeto. Eles estao mais focados, disciplinados e com melhor convivencia social. O projeto transforma vidas.",
+    text: "Percebi uma grande mudança nos alunos que participam do projeto. Eles estão mais focados, disciplinados e com melhor convivência social. O projeto transforma vidas.",
     date: "Parceira do projeto"
   },
   {
@@ -49,7 +49,7 @@ const testimonials = [
     role: "Participante, 11 anos",
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&q=80",
     rating: 5,
-    text: "Eu amo ir pras aulas! Aprendi a respeitar o mar e a natureza. Meus novos amigos sao muito legais e os professores tratam a gente super bem. Quero ser surfista profissional!",
+    text: "Eu amo ir às aulas! Aprendi a respeitar o mar e a natureza. Meus novos amigos são muito legais e os professores tratam a gente super bem. Quero ser surfista profissional!",
     date: "Participante desde 2024"
   }
 ]
@@ -85,13 +85,13 @@ export function Testimonials() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6">
             <Heart className="h-4 w-4" />
-            Historias Reais
+            Histórias Reais
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
             Vidas Transformadas
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Depoimentos de familias e participantes que tiveram suas vidas impactadas pelo Surf para o Futuro
+            Depoimentos de famílias e participantes que tiveram suas vidas impactadas pelo Surf para o Futuro
           </p>
         </div>
 
@@ -163,7 +163,7 @@ export function Testimonials() {
             <button
               onClick={handleNext}
               className="p-2 rounded-full bg-card border border-border hover:bg-muted transition-colors"
-              aria-label="Proximo depoimento"
+              aria-label="Próximo depoimento"
             >
               <ChevronRight className="h-6 w-6" />
             </button>

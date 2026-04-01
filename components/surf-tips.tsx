@@ -16,23 +16,23 @@ import {
 } from "lucide-react"
 
 const whatToBring = [
-  { item: "Roupa de banho", description: "Biquini/sunga confortavel por baixo da lycra" },
-  { item: "Protetor solar", description: "FPS 50+ resistente a agua (aplicar 30 min antes)" },
-  { item: "Toalha", description: "Para se secar apos a aula" },
+  { item: "Roupa de banho", description: "Biquini/sunga confortável por baixo da lycra" },
+  { item: "Protetor solar", description: "FPS 50+ resistente à água (aplicar 30 min antes)" },
+  { item: "Toalha", description: "Para se secar após a aula" },
   { item: "Chinelo", description: "A areia pode estar quente!" },
-  { item: "Agua", description: "Minimo 500ml para hidratacao" },
+  { item: "Água", description: "Mínimo 500 ml para hidratação" },
   { item: "Lanche leve", description: "Fruta ou barra de cereal para depois" },
-  { item: "Autorizacao", description: "Termo assinado pelo responsavel (apenas no primeiro dia)" },
+  { item: "Autorização", description: "Termo assinado pelo responsável (apenas no primeiro dia)" },
 ]
 
 const provided = [
-  "Prancha adequada ao nivel",
-  "Lycra de protecao",
+  "Prancha adequada ao nível",
+  "Lycra de proteção",
   "Parafina",
   "Leash (cordinha)",
   "Seguro contra acidentes",
   "Lanche coletivo",
-  "Atendimento com psicologo"
+  "Atendimento com psicólogo"
 ]
 
 const boardTypes = [
@@ -123,11 +123,11 @@ export function SurfTips() {
             Dicas & Informações
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-            Informacoes para Participantes
+            Informações para Participantes
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            Tudo que voce precisa saber para participar das aulas! Orientacoes para 
-            criancas, adolescentes e seus responsaveis.
+            Tudo o que você precisa saber para participar das aulas! Orientações para 
+            crianças, adolescentes e seus responsáveis.
           </p>
         </div>
 
@@ -196,7 +196,7 @@ export function SurfTips() {
                     O Projeto Fornece
                   </CardTitle>
                   <CardDescription className="text-primary-foreground/85">
-                    Tudo isso e oferecido gratuitamente
+                    Tudo isso é oferecido gratuitamente
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
@@ -213,10 +213,10 @@ export function SurfTips() {
                     <div className="flex items-start gap-3">
                       <Heart className="mt-0.5 h-5 w-5 shrink-0 text-red-400" />
                       <div>
-                        <p className="font-medium text-primary-foreground">Aviso aos responsaveis!</p>
+                        <p className="font-medium text-primary-foreground">Aviso aos responsáveis!</p>
                         <p className="text-sm text-primary-foreground/85">
-                          Evite enviar a crianca com o estomago muito cheio.
-                          Uma refeicao leve 1-2 horas antes e o ideal!
+                          Evite enviar a criança com o estômago muito cheio.
+                          Uma refeição leve 1–2 horas antes é o ideal!
                         </p>
                       </div>
                     </div>
@@ -303,9 +303,9 @@ export function SurfTips() {
                       Respeito pelo Mar e pela Natureza
                     </h3>
                     <p className="text-muted-foreground">
-                      No Surf para o Futuro, ensinamos que o oceano e poderoso e merece respeito. 
-                      Alem do surf, promovemos a consciencia ambiental e o cuidado com as praias. 
-                      Nossos instrutores estao sempre presentes para garantir a seguranca de todos!
+                      No Surf para o Futuro, ensinamos que o oceano é poderoso e merece respeito. 
+                      Além do surf, promovemos a consciência ambiental e o cuidado com as praias. 
+                      Nossos instrutores estão sempre presentes para garantir a segurança de todos!
                     </p>
                   </div>
                 </div>

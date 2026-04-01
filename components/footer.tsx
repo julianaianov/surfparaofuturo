@@ -3,14 +3,14 @@ import Link from "next/link"
 import { Instagram, MessageCircle, Mail, Phone, MapPin, Heart } from "lucide-react"
 
 const navLinks = [
-  { href: "#inicio", label: "Inicio" },
+  { href: "#inicio", label: "Início" },
   { href: "#sobre", label: "O Projeto" },
   { href: "#metodologia", label: "Metodologia" },
-  { href: "#condicoes", label: "Condicoes" },
+  { href: "#condicoes", label: "Condições" },
   { href: "#galeria", label: "Galeria" },
   { href: "#depoimentos", label: "Depoimentos" },
   { href: "#dicas", label: "Dicas" },
-  { href: "#inscricao", label: "Inscricao" },
+  { href: "#inscricao", label: "Inscrição" },
   { href: "#apoie", label: "Apoie" },
 ]
 
@@ -35,8 +35,8 @@ export function Footer() {
               </div>
             </Link>
             <p className="text-primary-foreground/75 mb-6 max-w-md">
-              Transformando vidas de criancas e adolescentes da comunidade do Terreirao 
-              atraves do surf. Inclusao social, desenvolvimento integral e novas perspectivas 
+              Transformando vidas de crianças e adolescentes da comunidade do Terreirão 
+              através do surf. Inclusão social, desenvolvimento integral e novas perspectivas 
               de futuro pelo contato com o mar.
             </p>
             <div className="flex gap-4">
@@ -70,7 +70,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Links Rapidos</h3>
+            <h3 className="font-semibold text-lg mb-4">Links rápidos</h3>
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
@@ -93,7 +93,7 @@ export function Footer() {
                 <MapPin className="h-5 w-5 text-brand-gold flex-shrink-0 mt-0.5" />
                 <span className="text-primary-foreground/75">
                   Praia do Recreio dos Bandeirantes<br />
-                  Comunidade do Terreirao - RJ
+                  Comunidade do Terreirão - RJ
                 </span>
               </li>
               <li>
