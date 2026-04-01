@@ -1,0 +1,157 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+/* Azul botões / localização #0087E0; dourado #FFD700; laranja #FF8A00 */
+:root {
+  --brand-blue: #0087e0;
+  --brand-gold: #ffd700;
+  --brand-orange: #ff8a00;
+  --background: color-mix(in srgb, var(--brand-blue) 14%, white);
+  --foreground: oklch(0.22 0.06 255);
+  --card: oklch(0.998 0.006 250);
+  --card-foreground: oklch(0.22 0.06 255);
+  --popover: oklch(0.998 0.006 250);
+  --popover-foreground: oklch(0.22 0.06 255);
+  --primary: var(--brand-blue);
+  --primary-foreground: #ffffff;
+  --secondary: color-mix(in srgb, var(--brand-gold) 22%, white);
+  --secondary-foreground: oklch(0.22 0.06 255);
+  --muted: color-mix(in srgb, var(--brand-blue) 8%, white);
+  --muted-foreground: oklch(0.42 0.06 255);
+  --accent: var(--brand-gold);
+  --accent-foreground: oklch(0.2 0.055 255);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: color-mix(in srgb, var(--brand-blue) 22%, white);
+  --input: color-mix(in srgb, var(--brand-blue) 12%, white);
+  --ring: var(--brand-blue);
+  --chart-1: var(--brand-blue);
+  --chart-2: color-mix(in srgb, var(--brand-blue) 65%, white);
+  --chart-3: var(--brand-gold);
+  --chart-4: var(--brand-orange);
+  --chart-5: oklch(0.32 0.09 252);
+  --radius: 0.75rem;
+  --sidebar: color-mix(in srgb, var(--brand-blue) 10%, white);
+  --sidebar-foreground: oklch(0.22 0.06 255);
+  --sidebar-primary: var(--brand-blue);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: color-mix(in srgb, var(--brand-gold) 18%, white);
+  --sidebar-accent-foreground: oklch(0.22 0.06 255);
+  --sidebar-border: color-mix(in srgb, var(--brand-blue) 20%, white);
+  --sidebar-ring: var(--brand-blue);
+  --ocean: var(--brand-blue);
+  --ocean-light: color-mix(in srgb, var(--brand-blue) 45%, white);
+  --ocean-dark: color-mix(in srgb, var(--brand-blue) 78%, #0a1628);
+  --sand: color-mix(in srgb, var(--brand-gold) 35%, white);
+  --sunset: var(--brand-gold);
+}
+
+.dark {
+  --background: color-mix(in srgb, var(--brand-blue) 12%, #0a1628);
+  --foreground: oklch(0.97 0.018 245);
+  --card: color-mix(in srgb, var(--brand-blue) 18%, #0f1f35);
+  --card-foreground: oklch(0.97 0.018 245);
+  --popover: color-mix(in srgb, var(--brand-blue) 18%, #0f1f35);
+  --popover-foreground: oklch(0.97 0.018 245);
+  --primary: var(--brand-blue);
+  --primary-foreground: #ffffff;
+  --secondary: color-mix(in srgb, var(--brand-blue) 25%, #152238);
+  --secondary-foreground: oklch(0.97 0.018 245);
+  --muted: color-mix(in srgb, var(--brand-blue) 20%, #152238);
+  --muted-foreground: oklch(0.75 0.04 245);
+  --accent: var(--brand-gold);
+  --accent-foreground: oklch(0.18 0.05 255);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: color-mix(in srgb, var(--brand-blue) 35%, #1a2a40);
+  --input: color-mix(in srgb, var(--brand-blue) 22%, #152238);
+  --ring: var(--brand-blue);
+  --chart-1: var(--brand-blue);
+  --chart-2: color-mix(in srgb, var(--brand-blue) 55%, white);
+  --chart-3: var(--brand-gold);
+  --chart-4: var(--brand-orange);
+  --chart-5: oklch(0.55 0.08 252);
+  --sidebar: color-mix(in srgb, var(--brand-blue) 15%, #0d1828);
+  --sidebar-foreground: oklch(0.97 0.018 245);
+  --sidebar-primary: var(--brand-blue);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: color-mix(in srgb, var(--brand-blue) 22%, #152238);
+  --sidebar-accent-foreground: oklch(0.97 0.018 245);
+  --sidebar-border: color-mix(in srgb, var(--brand-blue) 30%, #1a2a40);
+  --sidebar-ring: var(--brand-blue);
+  --ocean: var(--brand-blue);
+  --ocean-light: color-mix(in srgb, var(--brand-blue) 40%, white);
+  --ocean-dark: color-mix(in srgb, var(--brand-blue) 85%, #050810);
+  --sand: color-mix(in srgb, var(--brand-gold) 28%, #2a2418);
+  --sunset: var(--brand-gold);
+}
+
+@theme inline {
+  --font-sans: 'Outfit', 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-orange: var(--brand-orange);
+  --color-ocean: var(--ocean);
+  --color-ocean-light: var(--ocean-light);
+  --color-ocean-dark: var(--ocean-dark);
+  --color-sand: var(--sand);
+  --color-sunset: var(--sunset);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+/* Onda nos cards da seção Sobre (hover) */
+@keyframes about-card-wave-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

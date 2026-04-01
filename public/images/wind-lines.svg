@@ -1,0 +1,24 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.0)"/>
+      <stop offset="30%" stop-color="rgba(255,255,255,0.75)"/>
+      <stop offset="70%" stop-color="rgba(255,255,255,0.75)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.0)"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <path d="M80 170 C 300 120, 520 220, 760 170 C 960 130, 1200 190, 1520 150" stroke="url(#line)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M40 280 C 260 240, 500 320, 760 290 C 1020 260, 1260 330, 1560 280" stroke="url(#line)" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M120 410 C 320 370, 560 450, 820 410 C 1060 370, 1280 460, 1540 420" stroke="url(#line)" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M60 530 C 300 480, 540 560, 820 520 C 1090 485, 1310 560, 1540 530" stroke="url(#line)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M140 680 C 360 630, 580 710, 860 670 C 1110 635, 1320 720, 1540 680" stroke="url(#line)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="1220" cy="240" r="110" fill="rgba(255,255,255,0.14)"/>
+  <circle cx="1270" cy="220" r="80" fill="rgba(255,255,255,0.18)"/>
+  <circle cx="1170" cy="220" r="70" fill="rgba(255,255,255,0.16)"/>
+</svg>
