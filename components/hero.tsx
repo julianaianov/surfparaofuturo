@@ -23,7 +23,7 @@ export function Hero() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('/images/hero-surf.jpg')`,
+            backgroundImage: `url('/images/hero-bg-praia.png')`,
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-b from-ocean-dark/80 via-ocean-dark/60 to-ocean-dark/90" />
